@@ -12,3 +12,5 @@
 9. String
 10. Object (All Apex data types are inherited from Object)
 11. Blob (Binary Large Object)
+
+More info for data types in apex and programming.
