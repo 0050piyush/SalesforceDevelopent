@@ -1,0 +1,72 @@
+          --------------------------------------
+                      Loops in Apex
+          --------------------------------------
+           5 Types of Procedural Loops in Apex:
+
+1. While
+2. Do While
+3. if else
+4. Switch
+5. For
+
+1. While
+    While (Boolean Exit Condition)
+
+
+2. Do
+    Do {
+      //Code Block
+    }While (Boolean Exit Condition)
+
+
+3. if else
+  	if (Boolean Condition) {
+  	//Code Block
+  	｝
+  	else if (Boolean Condition2) {
+  	//Code Block
+  	｝
+  	else {
+  		//Code Block (Optional Default Condition)
+  	}
+
+
+4. Switch
+    Switch on expression{
+  
+  	when valuel, value2{
+  		//Code Block
+  	}
+  	 
+  	when value3{
+  		//Code Block
+  	}
+  
+  	when value4{
+  		//Code Block
+  	}
+  }
+
+
+5. For
+  	For (Initialization; Exit Condition; Increment/Decrement) {
+          //Code Block
+    }
+
+  	For (Variable : Array or Set) {//Code Block}
+  	For (Variable : ([Inline SOQL Query]) {//Code Block}
+  
+    for(i = 1; i <= 6; i++){
+  			//code block
+  		}
+  
+    // For loop with List
+    Example:
+    	List<Integer>numbers = new List<Integer>();
+    	Integer listSize = 6;
+    	for(integer i = 1; i<=listSize; i++){
+    		numbers.add(i);
+    	}
+    	System.debug('List of numbers ' + numbers);
+
+    output => 1 2 3 4 5 6 
