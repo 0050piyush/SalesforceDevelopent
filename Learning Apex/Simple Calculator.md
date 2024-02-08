@@ -1,6 +1,6 @@
 # Creating a calculator Using a Simple Method
 - Example:
-
+```java
         public class Calculator {
         	integer num1, num2,result;
             
@@ -52,4 +52,5 @@
           System.debug('Division of the numbers are: '+answer4);
         
         }
+```
 
