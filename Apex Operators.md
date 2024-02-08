@@ -1,6 +1,5 @@
---------------------------------------------------------------------
-                     Operators in Apex
---------------------------------------------------------------------
+#        Operators in Apex
+
 1. Grouping, increment and decrement -> () {} ++ --
 2. Unary Negation, type caste and object creation -> ! -x +x (type)
 3. Multiplication and devision -> * /
