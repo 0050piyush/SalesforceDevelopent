@@ -34,7 +34,7 @@
                 return result;
             }
         
-          Calculator cal1 = new Calculator();
+          /* Calculator cal1 = new Calculator();
           
           integer answer = cal1.addition(234,412);
           System.debug('sum of the numbers are: '+answer);
@@ -49,7 +49,7 @@
           System.debug('Multiplication of the numbers are: '+answer3);
           
           integer answer4 = cal1.division(6556,53);
-          System.debug('Division of the numbers are: '+answer4);
+          System.debug('Division of the numbers are: '+answer4); */
         
         }
 ```
