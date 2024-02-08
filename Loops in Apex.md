@@ -1,16 +1,16 @@
-          --------------------------------------
-                      Loops in Apex
-          --------------------------------------
-           5 Types of Procedural Loops in Apex:
+##                    --------------------------------------
+##                               Loops in Apex
+##                    --------------------------------------
+##                     5 Types of Procedural Loops in Apex:
 
-1. While
-2. do-while
-3. if else
-4. Switch
-5. For
+### 1. While
+### 2. do-while
+### 3. if else
+### 4. Switch
+### 5. For
 
  ### While
-   > While (Boolean Exit Condition)
+ ####   > While (Boolean Exit Condition)
 
 
 ### do-while
