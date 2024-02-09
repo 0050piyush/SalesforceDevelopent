@@ -25,6 +25,7 @@
     }
 ```
 
+```java
 public static class testClass{
     Integer a;
     String b;
@@ -45,3 +46,4 @@ public static class testClass{
        system.debug('a '+b+' '+age);
     }
 }
+```
